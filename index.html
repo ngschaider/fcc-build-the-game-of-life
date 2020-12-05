@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC: Build the Game of Life</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="toolbar">
+  Rows: 
+  <input type="number" id="num-rows" value="20">
+  Columns:
+  <input type="number" id="num-columns" value="30">
+  Ticks/sec:
+  <input type="number" id="tps" value="2">
+  
+
+  <input type="button" id="start-pause" value="Start">
+  <input type="button" id="step" value="Step">
+  <input type="button" id="clear" value="Clear">
+  
+  Generations: <span id="generations"></span>
+</div>
+<canvas id="canvas"></canvas>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
